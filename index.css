@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+
+.task {
+    display: flex;
+}
+
+.left {
+    background-color: rgb(214, 214, 90);
+    padding: 10px;
+}
+
+.right {
+    background-color: rgb(0, 217, 255);
+    padding: 10px;
+}
+
+#imageDisplay img {
+    width: 400px;
+    height: 400px;
+    margin: 5px;
+}
